@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Hub</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1 class="bubble-text">Choose a Game</h1>
+    <div class="games-grid">
+      <div class="game-card" data-game="Emoji Guessing">
+        <div class="game-box"></div>
+        <div class="game-label">Emoji Guessing</div>
+      </div>
+      <div class="game-card" data-game="Memory Card">
+        <div class="game-box"></div>
+        <div class="game-label">Memory Card</div>
+      </div>
+      <div class="game-card" data-game="Tic Tac Toe">
+        <div class="game-box"></div>
+        <div class="game-label">Tic Tac Toe</div>
+      </div>
+      <div class="game-card" data-game="Flappy Bird">
+        <div class="game-box"></div>
+        <div class="game-label">Flappy Bird</div>
+      </div>
+    </div>
+  </div>
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <p id="popup-text"></p>
+      <button id="yes-btn">Yes</button>
+      <button id="no-btn">No</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
