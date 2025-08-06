@@ -1,4 +1,4 @@
-# 🎮 QuadPlay Arcade – Mini Web Game Series
+# 🎮 – Mini Web Game Series
 
 A collection of **four fun and interactive browser games**, fully developed using **HTML, CSS, and JavaScript**. Each game runs in the browser without any installations or frameworks — simple, responsive, and built from scratch!
 
